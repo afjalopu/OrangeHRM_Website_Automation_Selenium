@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.LeaveModuleTest">
+        <methods>
+          <include name="Parent"/>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="AssignleaveSection"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.LeaveModuleTest -->
+      <class name="tests.PIMModuleTest">
+        <methods>
+          <include name="NickNameOtherIDDrivingLicenseGiving"/>
+          <include name="close"/>
+          <include name="afterClass"/>
+          <include name="start"/>
+          <include name="Parent"/>
+          <include name="NameGiving"/>
+          <include name="PIMModuleClick"/>
+        </methods>
+      </class> <!-- tests.PIMModuleTest -->
+      <class name="tests.AdminModuleTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="close"/>
+          <include name="UserRoleDropDown"/>
+          <include name="UpArrowClick"/>
+          <include name="start"/>
+          <include name="EmployeeNameGiving"/>
+          <include name="Admin"/>
+          <include name="StatusDropDown"/>
+          <include name="UserName"/>
+          <include name="Parent"/>
+          <include name="ClickOnAddButton"/>
+        </methods>
+      </class> <!-- tests.AdminModuleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
